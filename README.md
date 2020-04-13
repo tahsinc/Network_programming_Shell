@@ -7,6 +7,6 @@ This is providing a user defined function to verify credential of network device
 
 The code will check first the connectivity with telnet. If it fails then it will try connecting through ssh. 
 
-3. The main.py is a template how to use that userdefined function in your actual program.
+3. The main.py is a template for how to use that userdefined function in your actual program.
 
 Feel free to use it, suggest for changes or make changes for your own code.
