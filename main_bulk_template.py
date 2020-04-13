@@ -7,7 +7,7 @@ boxes = """*** Replace with devices after verifying """
 dcnter = 0
 for box in boxes:
     dcnter = dcnter + 1
-    print("\n ############# Working with devic {} ###############\n".format(dcnter))
+    print("\n ############# Working with device {} ###############\n".format(dcnter))
 
     network_device = ConnectHandler(**box)
     network_device.set_terminal_width(0)
