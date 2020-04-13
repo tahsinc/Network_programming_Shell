@@ -163,6 +163,14 @@ def deploy_command(network_device, command_to_deploy, READY_TO_DEPLOY=1):
 # ===========================================
 """ Add user defined Function """
 
+"""
+# User defined function:
+# name: find_text
+# input: from_text, starting_at, ending_at_excluded
+# output: extracted_text
+# function: parse specific portion of text from a large text 
+"""
+
 def find_text(from_text, starting_at, ending_at_excluded):
     print_flag = 0
     extracted_text = ''
@@ -180,6 +188,14 @@ def find_text(from_text, starting_at, ending_at_excluded):
     return extracted_text
 
 # ===========================================
+
+"""
+# User defined function:
+# name: verify_device_login
+# input: nNunmberOfDevice (default is 1, user can change to as many as they need)
+# output: boxes
+# function: return number of network devices or boxes ( 1 or more depending on input) 
+"""
 
 def verify_device_login(nNunmberOfDevice=1):
     boxes = list()
